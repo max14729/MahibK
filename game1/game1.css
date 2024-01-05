@@ -1,0 +1,99 @@
+.RockButton {
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 70px;
+    margin-left: 300px;
+    font-family: Arial;
+    line-height: 100px;
+    transition: background-color, 0.5s;
+    transition: opacity,  0.5;
+    cursor: pointer;
+}
+
+.RockButton:hover {
+    background-color: #3a4452;
+}
+
+.RockButton:active {
+    opacity: 0.5;
+}
+
+.ScissorsButton {
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 70px;
+    margin-left: 500px;
+    font-family: Arial;
+    line-height: 100px;
+    transition: background-color, 0.5s;
+    transition: opacity,  0.5;
+    cursor: pointer;
+}
+
+.ScissorsButton:hover {
+    background-color: #3a4452;
+}
+
+.ScissorsButton:active {
+opacity: 0.5;
+}
+
+.PaperButton {
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 70px;
+    margin-left: 700px;
+    font-family: Arial;
+    line-height: 100px;
+    transition: background-color, 0.5s;
+    transition: opacity,  0.5;
+    cursor: pointer;
+}
+
+.PaperButton:hover {   
+    background-color: #3a4452;
+}
+
+.PaperButton:active {
+    opacity: 0.5;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,
+    #0a0a0a, #3a4452);
+}
+
+.Resultation {
+    font-family: 'Franklin Gothic Medium';
+    transition: opacity, 2s;
+}
+
+#fade-out {
+    opacity: 0;
+}

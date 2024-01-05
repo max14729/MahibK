@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+}
+
+
+.headerk { /*this is the header where things will be stored.*/
+    background: linear-gradient(45deg,
+    #0a0a0a, #3a4452);  
+    width: 1097px;
+    height: 60px;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.choose-game{
+    margin-left: 450px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium';
+    transition: color, 0.5s;
+    cursor: none;
+    display: inline-block;
+}
+
+.choose-game:hover{
+    color: #3a4452;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,
+    #0a0a0a, #3a4452);
+}
+
+.StonePaperAnchor {
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-family: Arial;
+    line-height: 100px;
+    transition: background-color, 0.5s;
+    transition: opacity,  0.5;
+}
+
+.StonePaperAnchor:active {
+    opacity: 0.5;
+}
+
+.StonePaperAnchor:hover{
+    background-color: #3a4452;
+}
